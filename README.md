@@ -1,11 +1,12 @@
 # Codex GPT Pets
 
-Animated Codex v2 pets for Freud and Euclid, packaged as 8×11 WEBP spritesheets.
+Animated Codex v2 pets for Freud, Euclid, and René Descartes, packaged as 8×11 WEBP spritesheets.
 
 ## Pets
 
 - `pets/freud/`: Freud, with silver beard, dark suit, and pipe.
 - `pets/euclid/`: Euclid, with white beard, tall cap, red cloak, and geometry tablet.
+- `pets/descartes/`: René Descartes, with dark curls, scholarly coat, raised finger, and leather book.
 
 Each pet directory contains `pet.json` and `spritesheet.webp`.
 
@@ -20,6 +21,7 @@ For example:
 ```sh
 cp -R pets/freud ~/.codex/pets/
 cp -R pets/euclid ~/.codex/pets/
+cp -R pets/descartes ~/.codex/pets/
 ```
 
 The spritesheets use `spriteVersionNumber: 2` and include the complete 8×11 atlas required by the v2 pet format.
