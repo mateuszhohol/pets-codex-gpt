@@ -1,6 +1,6 @@
 # Codex GPT Pets
 
-Animated Codex v2 pets for Aaron Beck, Freud, Euclid, René Descartes, Eddie, and Pan Spinacz, packaged as 8×11 WEBP spritesheets.
+Animated Codex v2 pets for Aaron Beck, Freud, Euclid, René Descartes, Eddie, Pan Spinacz, and Mózgowiec, packaged as 8×11 WEBP spritesheets.
 
 ## Pets
 
@@ -10,6 +10,7 @@ Animated Codex v2 pets for Aaron Beck, Freud, Euclid, René Descartes, Eddie, an
 - `pets/descartes/`: René Descartes, with dark curls, scholarly coat, raised finger, and leather book.
 - `pets/eddie/`: Eddie, a dark rock mascot with wild yellow hair, leather clothing, and a hand axe.
 - `pets/pan-spinacz/`: Pan Spinacz, a purple paperclip helper with large eyes and an attached sheet of lined paper.
+- `pets/mozgowiec/`: Mózgowiec, a coral brain mascot with gold-rimmed aviator glasses and a focused expression.
 
 Each pet directory contains `pet.json` and `spritesheet.webp`.
 
@@ -28,6 +29,7 @@ cp -R pets/descartes ~/.codex/pets/
 cp -R pets/aaron-beck ~/.codex/pets/
 cp -R pets/eddie ~/.codex/pets/
 cp -R pets/pan-spinacz ~/.codex/pets/
+cp -R pets/mozgowiec ~/.codex/pets/
 ```
 
 The spritesheets use `spriteVersionNumber: 2` and include the complete 8×11 atlas required by the v2 pet format.
